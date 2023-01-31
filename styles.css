@@ -1,0 +1,58 @@
+body { 
+    background-color:rgb(102, 2, 2);
+}
+
+h1, h2, h3, h4, h5 {
+    color: goldenrod;
+}
+
+a {
+    color: goldenrod;
+}
+
+p {
+    color: goldenrod;
+}
+
+table {
+    border-collapse: collapse;
+    width: 50%;    /*How do I make my table longer?*/
+}
+
+th, td {
+    padding: 35px;
+    text-align: left;
+    border-bottom: 1px black;
+}
+
+tr:nth-child(even) {
+    background-color: green;
+}
+
+tr:nth-child(odd) {
+    background-color: aqua;
+}
+
+tr:hover {
+    background-color: white;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+#border {
+    border: solid black;
+}
+
+.center {        /*How to center an image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#center {
+     text-align: center; 
+ }
+
